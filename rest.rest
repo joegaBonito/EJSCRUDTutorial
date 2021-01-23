@@ -1,0 +1,27 @@
+###
+POST http://localhost:3000/addUser/newuser
+Content-Type: application/json
+
+{
+    "password":"newpass",
+    "name":"joe"
+}
+
+###
+GET http://localhost:3000/list
+
+###
+GET http://localhost:3000/getUser/first_user
+
+###
+PUT http://localhost:3000/updateUser/newuser
+Content-Type: application/json
+
+{
+    "password":"newpass",
+    "name":"Sean"
+}
+
+###
+DELETE http://localhost:3000/deleteUser/first_user
+Content-Type: application/json
